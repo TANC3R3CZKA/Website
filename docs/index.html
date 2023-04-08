@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Facebook-like Website</title>
+    <style>
+		body {
+			background-color: #1C1C1C;
+			color: #FFFFFF;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #34A853;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+			header img {
+				height: 50px;
+				border-radius: 50%;
+			}
+
+		nav {
+			background-color: #1C1C1C;
+			padding: 10px;
+		}
+
+			nav ul {
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+			}
+
+				nav ul li {
+					margin: 0 10px;
+				}
+
+					nav ul li a {
+						color: #FFFFFF;
+						text-decoration: none;
+						font-weight: bold;
+						text-transform: uppercase;
+						transition: all 0.3s ease;
+					}
+
+						nav ul li a:hover {
+							color: #34A853;
+						}
+
+		.main-content {
+			display: flex;
+			flex-direction: row;
+			margin-top: 20px;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+
+		.left-column {
+			flex-basis: 25%;
+			margin-right: 20px;
+		}
+
+		.right-column {
+			flex-basis: 75%;
+		}
+
+		.post {
+			background-color: #FFFFFF;
+			border-radius: 10px;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+			.post h2 {
+				margin-top: 0;
+			}
+
+		.comments-section {
+			background-color: #FFFFFF;
+			border-radius: 10px;
+			padding: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.comment {
+			margin-bottom: 10px;
+		}
+
+			.comment p {
+				margin: 0;
+			}
+
+		.messages-section {
+			background-color: #FFFFFF;
+			border-radius: 10px;
+			padding: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.message {
+			margin-bottom: 10px;
+		}
+
+			.message p {
+				margin: 0;
+			}
+	</style>
+</head>
+<body>
+<header>
+    <img src="photo.jpg" alt="Profile Picture">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="contact.html">Messages</a></li> <!-- zmieniony link -->
+        </ul>
+    </nav>
+</header>
+<div class="main-content">
+    <div class="left-column">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in posuere massa. Ut malesuada tincidunt quam ut viverra. Integer feugiat urna in semper mollis.</p>
+    </div>
+    <div class="right-column">
+        <div class="post">
+            <h2>My Post</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in posuere massa. Ut malesuada tincidunt quam ut viverra. Integer feugiat urna in semper mollis.</p>
+        </div>
+        <div class="comments-section">
+            <h2>Comments</h2>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="comment">
+                <p>Nulla in posuere massa.</p>
+            </div>
+            <div class="comment">
+                <p>Ut malesuada tincidunt quam ut viverra.</p>
+            </div>
+        </div>
+        <div class="messages-section">
+            <h2>Messages</h2>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="message">
+                <p>Nulla in posuere massa.</p>
+            </div>
+            <div class="message">
+                <p>Utmalesuada tincidunt quam ut viverra.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
