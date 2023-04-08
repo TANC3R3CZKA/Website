@@ -1,0 +1,11 @@
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
